@@ -16,14 +16,14 @@ public class Lesson2 : MonoBehaviour
 
     private void OnGUI() {
         #region 知识点一 GUI控件绘制的共同点
-        //1.他们都是GUI公共类中提供的静态函数 直接调用即可
-        //2.他们的参数都大同小异
+        // 1.他们都是GUI公共类中提供的静态函数 直接调用即可
+        // 2.他们的参数都大同小异
         // 位置参数:Rect参数 xy位置 w h尺寸
         // 显示文本:string参数
         // 图片信息:Texture参数
         // 综合信息:GUIContent参数
         // 自定义样式:GUIStyle参数
-        //3.每一种控件都有多种重载，都是各个参数的排列组合
+        // 3.每一种控件都有多种重载，都是各个参数的排列组合
         // 必备的参数内容 是 位置信息和显示信息
         #endregion   
     
